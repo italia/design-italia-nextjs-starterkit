@@ -1,0 +1,29 @@
+{
+  "name": "next-starter-designkit",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bootstrap-italia": "^2.8.5",
+    "design-react-kit": "^5.0.4",
+    "next": "14",
+    "react": "^18",
+    "react-dom": "^18",
+    "typeface-lora": "^1.1.13",
+    "typeface-roboto-mono": "^1.1.13",
+    "typeface-titillium-web": "^1.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.4",
+    "typescript": "^5"
+  }
+}
