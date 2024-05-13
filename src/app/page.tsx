@@ -4,7 +4,6 @@ import NavScrollSample from "@/components/navScrollSample";
 export default function Home() {
   return (
     <Container>
-      <div>Hello :)</div>
       <div>
         <h1>Hello h1</h1>
         <h2>Hello h2</h2>
