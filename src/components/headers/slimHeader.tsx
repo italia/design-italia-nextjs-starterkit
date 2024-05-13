@@ -43,7 +43,7 @@ export default function SlimHeader({ theme }: { theme?: "dark" | "light" }) {
             <span className="rounded-icon">
               <Icon color="primary" icon="it-user" />
             </span>
-            <span className="d-none d-lg-block">Accedi all'area personale</span>
+            <span className="d-none d-lg-block">Accedi all&#39;area personale</span>
           </Button>
         </HeaderRightZone>
       </HeaderContent>
