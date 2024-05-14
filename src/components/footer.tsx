@@ -1,6 +1,16 @@
 "use client";
-import { Container, Button, Form, Input, Label, Row, Col } from "reactstrap";
-import { Icon, LinkList, LinkListItem } from "@/design-react-kit";
+import {
+  Container,
+  Button,
+  Form,
+  Input,
+  Label,
+  Row,
+  Col,
+  // Icon,
+  // LinkList,
+  // LinkListItem,
+} from "design-react-kit";
 export default function Footer() {
   return (
     <footer className="it-footer">

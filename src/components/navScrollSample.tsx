@@ -7,8 +7,11 @@ import {
   NavbarToggler,
   NavItem,
   NavLink,
-} from "reactstrap";
-import { useNavScroll, Collapse, Icon, LinkList } from "@/design-react-kit";
+  useNavScroll,
+  Collapse,
+  Icon,
+  LinkList,
+} from "design-react-kit";
 
 import { useState, useRef } from "react";
 

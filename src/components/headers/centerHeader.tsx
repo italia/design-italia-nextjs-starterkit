@@ -7,7 +7,7 @@ import {
   HeaderSearch,
   HeaderSocialsZone,
   Icon,
-} from "@/design-react-kit";
+} from "design-react-kit";
 export default function CenterHeader({ theme }: { theme?: "dark" | "light" }) {
   return (
     <Header theme={theme || ""} type="center">

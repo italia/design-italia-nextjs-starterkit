@@ -13,7 +13,7 @@ import {
   MegamenuHighlightColumn,
   MegamenuItem,
   Nav,
-} from "@/design-react-kit";
+} from "design-react-kit";
 import { Col, Row, NavItem, NavLink } from "reactstrap";
 
 export default function NavHeader({ theme }: { theme?: "dark" | "light" }) {

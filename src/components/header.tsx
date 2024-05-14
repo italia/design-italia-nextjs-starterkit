@@ -1,5 +1,5 @@
 "use client";
-import { Headers } from "@/design-react-kit";
+import { Headers } from "design-react-kit";
 import CenterHeader from "@/components/headers/centerHeader";
 import SlimHeader from "@/components/headers/slimHeader";
 import NavHeader from "@/components/headers/navHeader";
