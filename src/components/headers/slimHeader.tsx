@@ -1,7 +1,6 @@
 "use client";
 import {
   Button,
-  Col,
   Dropdown,
   DropdownMenu,
   DropdownToggle,
@@ -12,8 +11,8 @@ import {
   Icon,
   LinkList,
   LinkListItem,
-  Row,
-} from "design-react-kit";
+} from "@/design-react-kit";
+import { Col, Row } from "reactstrap";
 export default function SlimHeader({ theme }: { theme?: "dark" | "light" }) {
   return (
     <Header theme={theme || ""} type="slim">
@@ -43,7 +42,9 @@ export default function SlimHeader({ theme }: { theme?: "dark" | "light" }) {
             <span className="rounded-icon">
               <Icon color="primary" icon="it-user" />
             </span>
-            <span className="d-none d-lg-block">Accedi all&#39;area personale</span>
+            <span className="d-none d-lg-block">
+              Accedi all&#39;area personale
+            </span>
           </Button>
         </HeaderRightZone>
       </HeaderContent>

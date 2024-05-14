@@ -1,5 +1,7 @@
-import { Container } from "design-react-kit";
-import NavScrollSample from "@/components/navScrollSample";
+"use client";
+import { Container } from "reactstrap";
+// import NavScrollSample from "@/components/navScrollSample";
+import { Card } from "reactstrap";
 
 export default function Home() {
   return (
@@ -12,6 +14,7 @@ export default function Home() {
         <h5>Hello h5</h5>
         <h6>Hello h6</h6>
       </div>
+      <Card>AO</Card>
       <div>
         <p>
           Esempio di testo <u>sottolineato</u>.
@@ -37,7 +40,7 @@ export default function Home() {
         <p>
           Esempio di testo <code>monospace</code>.
         </p>
-        <NavScrollSample />
+        {/* <NavScrollSample /> */}
       </div>
     </Container>
   );

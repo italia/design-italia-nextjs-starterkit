@@ -1,6 +1,5 @@
 "use client";
 import {
-  Col,
   Collapse,
   Dropdown,
   DropdownMenu,
@@ -14,10 +13,9 @@ import {
   MegamenuHighlightColumn,
   MegamenuItem,
   Nav,
-  NavItem,
-  NavLink,
-  Row,
-} from "design-react-kit";
+} from "@/design-react-kit";
+import { Col, Row, NavItem, NavLink } from "reactstrap";
+
 export default function NavHeader({ theme }: { theme?: "dark" | "light" }) {
   return (
     <Header theme={theme || ""} type="navbar">

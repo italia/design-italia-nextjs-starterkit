@@ -4,7 +4,7 @@ import "typeface-roboto-mono";
 import "typeface-lora";
 
 import type { Metadata } from "next";
-import Header from "@/components/header";
+// import Header from "@/components/header";
 import Footer from "@/components/footer";
 
 export const metadata: Metadata = {
@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Header />
+        {/* <Header /> */}
         <main>{children}</main>
         <Footer />
       </body>

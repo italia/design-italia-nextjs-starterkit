@@ -1,17 +1,15 @@
 "use client";
 import {
-  useNavScroll,
-  Container,
-  Row,
-  Col,
   Navbar,
+  Container,
+  Col,
+  Row,
   NavbarToggler,
-  Collapse,
-  Icon,
-  LinkList,
   NavItem,
   NavLink,
-} from "design-react-kit";
+} from "reactstrap";
+import { useNavScroll, Collapse, Icon, LinkList } from "@/design-react-kit";
+
 import { useState, useRef } from "react";
 
 export default function NavScrollSample() {

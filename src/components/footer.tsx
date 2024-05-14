@@ -1,17 +1,6 @@
 "use client";
-import {
-  Button,
-  Col,
-  Container,
-  Form,
-  Icon,
-  Input,
-  Label,
-  LinkList,
-  LinkListItem,
-  Row,
-} from "design-react-kit";
-
+import { Container, Button, Form, Input, Label, Row, Col } from "reactstrap";
+import { Icon, LinkList, LinkListItem } from "@/design-react-kit";
 export default function Footer() {
   return (
     <footer className="it-footer">
@@ -22,7 +11,7 @@ export default function Footer() {
               <Col sm={12}>
                 <div className="it-brand-wrapper">
                   <a className="" href="#">
-                    <Icon icon="it-pa" />
+                    {/* <Icon icon="it-pa" /> */}
                     <div className="it-brand-text">
                       <h2>Nome del Comune</h2>
                       <h3 className="d-none d-md-block">
@@ -48,7 +37,7 @@ export default function Footer() {
                   Via Roma 0 - 00000 Lorem Ipsum Codice fiscale / P. IVA:
                   000000000
                 </p>
-                <LinkList className="footer-list clearfix">
+                {/* <LinkList className="footer-list clearfix">
                   <LinkListItem
                     href="#"
                     title="Vai alla pagina: Posta Elettronica Certificata"
@@ -61,7 +50,7 @@ export default function Footer() {
                   >
                     URP - Ufficio Relazioni con il Pubblico
                   </LinkListItem>
-                </LinkList>
+                </LinkList> */}
               </Col>
               <Col className="pb-2" lg={4} md={4}>
                 <h4>
@@ -86,7 +75,7 @@ export default function Footer() {
                     type="email"
                   />
                   <Button className="btn-icon" color="primary" type="submit">
-                    <Icon color="white" icon="it-mail" />
+                    {/* <Icon color="white" icon="it-mail" /> */}
                     <span>Iscriviti</span>
                   </Button>
                 </Form>
@@ -100,45 +89,45 @@ export default function Footer() {
                 <ul className="list-inline text-start social">
                   <li className="list-inline-item">
                     <a className="p-2 text-white" href="#" target="_blank">
-                      <Icon
+                      {/* <Icon
                         className="align-top"
                         color="white"
                         icon="it-designers-italia"
                         size="sm"
-                      />
+                      /> */}
                       <span className="visually-hidden">Designers Italia</span>
                     </a>
                   </li>
                   <li className="list-inline-item">
                     <a className="p-2 text-white" href="#" target="_blank">
-                      <Icon
+                      {/* <Icon
                         className="align-top"
                         color="white"
                         icon="it-twitter"
                         size="sm"
-                      />
+                      /> */}
                       <span className="visually-hidden">Twitter</span>
                     </a>
                   </li>
                   <li className="list-inline-item">
                     <a className="p-2 text-white" href="#" target="_blank">
-                      <Icon
+                      {/* <Icon
                         className="align-top"
                         color="white"
                         icon="it-medium"
                         size="sm"
-                      />
+                      /> */}
                       <span className="visually-hidden">Medium</span>
                     </a>
                   </li>
                   <li className="list-inline-item">
                     <a className="p-2 text-white" href="#" target="_blank">
-                      <Icon
+                      {/* <Icon
                         className="align-top"
                         color="white"
                         icon="it-behance"
                         size="sm"
-                      />
+                      /> */}
                       <span className="visually-hidden">Behance</span>
                     </a>
                   </li>
@@ -149,7 +138,7 @@ export default function Footer() {
         </Container>
       </div>
       <div className="it-footer-small-prints clearfix">
-        <Container>
+        <div>
           <h3 className="visually-hidden">Sezione Link Utili</h3>
           <ul className="it-footer-small-prints-list list-inline mb-0 d-flex flex-column flex-md-row">
             <li className="list-inline-item">
@@ -173,7 +162,7 @@ export default function Footer() {
               </a>
             </li>
           </ul>
-        </Container>
+        </div>
       </div>
     </footer>
   );
