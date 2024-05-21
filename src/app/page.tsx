@@ -1,5 +1,5 @@
 "use client";
-// import NavScrollSample from "@/components/navScrollSample";
+import NavScrollSample from "@/components/navScrollSample";
 import { Container } from "design-react-kit";
 
 export default function Home() {
@@ -39,7 +39,7 @@ export default function Home() {
         <p>
           Esempio di testo <code>monospace</code>.
         </p>
-        {/* <NavScrollSample /> */}
+        <NavScrollSample />
       </div>
     </Container>
   );
