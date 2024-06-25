@@ -24,18 +24,14 @@ export default function SlimHeader({ theme }: { theme?: "dark" | "light" }) {
               ITA
             </DropdownToggle>
             <DropdownMenu>
-              <Row>
-                <Col size="12">
-                  <LinkList>
-                    <LinkListItem href="#" inDropdown>
-                      <span>ITA</span>
-                    </LinkListItem>
-                    <LinkListItem href="#" inDropdown>
-                      <span>ENG</span>
-                    </LinkListItem>
-                  </LinkList>
-                </Col>
-              </Row>
+              <LinkList>
+                <LinkListItem href="#" inDropdown>
+                  <span>ITA</span>
+                </LinkListItem>
+                <LinkListItem href="#" inDropdown>
+                  <span>ENG</span>
+                </LinkListItem>
+              </LinkList>
             </DropdownMenu>
           </Dropdown>
           <Button className="btn-icon btn-full" color="primary" href="#">
