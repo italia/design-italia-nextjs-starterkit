@@ -26,7 +26,7 @@ export default function NavHeader({ theme }: { theme?: "dark" | "light" }) {
   };
 
   return (
-    <Header theme={theme || ""} type="navbar">
+    <Header theme={openNav ? "light" : "dark"} type="navbar">
       <HeaderContent expand="lg" megamenu>
         <HeaderToggler
           aria-controls="nav1"
