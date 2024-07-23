@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import {
   Button,
   Dropdown,
@@ -11,24 +11,24 @@ import {
   Icon,
   LinkList,
   LinkListItem,
-} from "design-react-kit";
-import { Col, Row } from "reactstrap";
-export default function SlimHeader({ theme }: { theme?: "dark" | "light" }) {
+} from 'design-react-kit';
+import { Col, Row } from 'reactstrap';
+export default function SlimHeader({ theme }: { theme?: 'dark' | 'light' }) {
   return (
-    <Header theme={theme || ""} type="slim">
+    <Header theme={theme || ''} type="slim">
       <HeaderContent>
         <HeaderBrand responsive>Ente appartenenza/Owner</HeaderBrand>
         <HeaderRightZone>
           <Dropdown inNavbar>
-            <DropdownToggle caret inNavbar>
+            <DropdownToggle inNavbar caret>
               ITA
             </DropdownToggle>
-            <DropdownMenu>
+            <DropdownMenu style={{ marginTop: 60 }}>
               <LinkList>
-                <LinkListItem href="#" inDropdown>
+                <LinkListItem inDropdown href="#">
                   <span>ITA</span>
                 </LinkListItem>
-                <LinkListItem href="#" inDropdown>
+                <LinkListItem inDropdown href="#">
                   <span>ENG</span>
                 </LinkListItem>
               </LinkList>
