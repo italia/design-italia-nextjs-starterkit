@@ -95,7 +95,7 @@ export default function Home() {
 
   return (
     <>
-      <Section id="head-section">
+      <section id="head-section">
         <Container>
           <Row>
             <Col lg={{ size: 6, offset: 1, order: 2 }}>
@@ -136,8 +136,8 @@ export default function Home() {
             </Col>
           </Row>
         </Container>
-      </Section>
-      <Section id="">
+      </section>
+      <section id="">
         <div className="section section-muted pb-5 pt-0">
           <Container>
             <Row>
@@ -234,8 +234,8 @@ export default function Home() {
             </Row>
           </Container>
         </div>
-      </Section>
-      <Section id="evidenza">
+      </section>
+      <section id="evidenza">
         <div className="section section-background-header py-5">
           <Container>
             <Row>
@@ -434,8 +434,8 @@ export default function Home() {
             </div>
           </Container>
         </div>
-      </Section>
-      <Section id="novita">
+      </section>
+      <section id="novita">
         <div
           className="section section-background-header"
           style={{ backgroundImage: "url('https://picsum.photos/1200/400')" }}
@@ -490,7 +490,7 @@ export default function Home() {
             </Row>
           </Container>
         </div>
-      </Section>
+      </section>
     </>
   );
 }
