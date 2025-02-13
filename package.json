@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "bootstrap-italia": "2.8.8-rc5",
+    "bootstrap-italia": "2.13.4",
     "design-react-kit": "^5.5.1",
     "next": "14",
     "react": "^18",
