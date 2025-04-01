@@ -19,6 +19,7 @@ import {
 } from "design-react-kit";
 import { NavItem, NavLink } from "reactstrap";
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export default function NavHeader({ theme }: { theme?: "dark" | "light" }) {
   const [openNav, setOpenNav] = useState(false);
   const toggle = () => {

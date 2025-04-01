@@ -12,7 +12,7 @@ import {
   LinkList,
   LinkListItem,
 } from 'design-react-kit';
-import { Col, Row } from 'reactstrap';
+
 export default function SlimHeader({ theme }: { theme?: 'dark' | 'light' }) {
   return (
     <Header theme={theme || ''} type="slim">

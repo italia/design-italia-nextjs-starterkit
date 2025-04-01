@@ -17,7 +17,6 @@ import {
   Col,
   LinkListItem,
   LinkList,
-  Section,
 } from "design-react-kit";
 
 export default function Home() {

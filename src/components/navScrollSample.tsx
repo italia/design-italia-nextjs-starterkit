@@ -238,7 +238,7 @@ export default function NavScrollSample() {
             accumsan magna ac risus ultricies, vel condimentum ipsum accumsan.
             Proin blandit mauris sed sodales sollicitudin.
           </p>
-          <h2 className="it-page-section" {...register("1")}>
+          <h2 className="it-page-section" {...register<HTMLHeadingElement>("1")}>
             Introduzione
           </h2>
           <p>
@@ -254,7 +254,7 @@ export default function NavScrollSample() {
             natoque penatibus et magnis dis parturient montes, nascetur
             ridiculus mus.
           </p>
-          <h3 className="it-page-section" {...register("1_1", { parent: "1" })}>
+          <h3 className="it-page-section" {...register<HTMLHeadingElement>("1_1", { parent: "1" })}>
             Nested item 1.1
           </h3>
           <p>
@@ -272,7 +272,7 @@ export default function NavScrollSample() {
           </p>
           <h4
             className="it-page-section"
-            {...register("1_1_1", { parent: "1_1" })}
+            {...register<HTMLHeadingElement>("1_1_1", { parent: "1_1" })}
           >
             Nested item 1.1.1
           </h4>
@@ -291,7 +291,7 @@ export default function NavScrollSample() {
           </p>
           <h4
             className="it-page-section"
-            {...register("1_1_2", { parent: "1_1" })}
+            {...register<HTMLHeadingElement>("1_1_2", { parent: "1_1" })}
           >
             Nested item 1.1.2
           </h4>
@@ -310,7 +310,7 @@ export default function NavScrollSample() {
           </p>
           <h4
             className="it-page-section"
-            {...register("1_1_3", { parent: "1_1" })}
+            {...register<HTMLHeadingElement>("1_1_3", { parent: "1_1" })}
           >
             Nested item 1.1.3
           </h4>
@@ -327,7 +327,7 @@ export default function NavScrollSample() {
             natoque penatibus et magnis dis parturient montes, nascetur
             ridiculus mus.
           </p>
-          <h3 className="it-page-section" {...register("1_2", { parent: "1" })}>
+          <h3 className="it-page-section" {...register<HTMLHeadingElement>("1_2", { parent: "1" })}>
             Nested item 1.2
           </h3>
           <p>
@@ -343,7 +343,7 @@ export default function NavScrollSample() {
             natoque penatibus et magnis dis parturient montes, nascetur
             ridiculus mus.
           </p>
-          <h3 className="it-page-section" {...register("1_3", { parent: "1" })}>
+          <h3 className="it-page-section" {...register<HTMLHeadingElement>("1_3", { parent: "1" })}>
             Nested item 1.3
           </h3>
           <p>
@@ -359,7 +359,7 @@ export default function NavScrollSample() {
             natoque penatibus et magnis dis parturient montes, nascetur
             ridiculus mus.
           </p>
-          <h2 className="it-page-section" {...register("2")}>
+          <h2 className="it-page-section" {...register<HTMLHeadingElement>("2")}>
             Introduzione 2
           </h2>
           <p>
@@ -375,7 +375,7 @@ export default function NavScrollSample() {
             natoque penatibus et magnis dis parturient montes, nascetur
             ridiculus mus.
           </p>
-          <h3 className="it-page-section" {...register("2_1", { parent: "2" })}>
+          <h3 className="it-page-section" {...register<HTMLHeadingElement>("2_1", { parent: "2" })}>
             Nested item 2.1
           </h3>
           <p>
@@ -393,7 +393,7 @@ export default function NavScrollSample() {
           </p>
           <h4
             className="it-page-section"
-            {...register("2_1_1", { parent: "2_1" })}
+            {...register<HTMLHeadingElement>("2_1_1", { parent: "2_1" })}
           >
             Nested item 2.1.1
           </h4>
@@ -412,7 +412,7 @@ export default function NavScrollSample() {
           </p>
           <h4
             className="it-page-section"
-            {...register("2_1_2", { parent: "2_1" })}
+            {...register<HTMLHeadingElement>("2_1_2", { parent: "2_1" })}
           >
             Nested item 2.1.2
           </h4>
@@ -431,7 +431,7 @@ export default function NavScrollSample() {
           </p>
           <h4
             className="it-page-section"
-            {...register("2_1_3", { parent: "2_1" })}
+            {...register<HTMLHeadingElement>("2_1_3", { parent: "2_1" })}
           >
             Nested item 2.1.3
           </h4>
@@ -448,7 +448,7 @@ export default function NavScrollSample() {
             natoque penatibus et magnis dis parturient montes, nascetur
             ridiculus mus.
           </p>
-          <h3 className="it-page-section" {...register("2_2", { parent: "2" })}>
+          <h3 className="it-page-section" {...register<HTMLHeadingElement>("2_2", { parent: "2" })}>
             Nested item 2.2
           </h3>
           <p>
@@ -464,7 +464,7 @@ export default function NavScrollSample() {
             natoque penatibus et magnis dis parturient montes, nascetur
             ridiculus mus.
           </p>
-          <h3 className="it-page-section" {...register("2_3", { parent: "2" })}>
+          <h3 className="it-page-section" {...register<HTMLHeadingElement>("2_3", { parent: "2" })}>
             Nested item 2.3
           </h3>
           <p>
