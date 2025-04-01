@@ -5,22 +5,22 @@
       "name": "next-starter-designkit",
       "dependencies": {
         "bootstrap-italia": "2.14.0",
-        "design-react-kit": "^5.7.0",
+        "design-react-kit": "5.7.0",
         "next": "15.2.4",
-        "react": "^19.0.0",
-        "react-dom": "^19.0.0",
-        "typeface-lora": "^1.1.13",
-        "typeface-roboto-mono": "^1.1.13",
-        "typeface-titillium-web": "^1.1.13",
+        "react": "19.1.0",
+        "react-dom": "19.1.0",
+        "typeface-lora": "1.1.13",
+        "typeface-roboto-mono": "1.1.13",
+        "typeface-titillium-web": "1.1.13",
       },
       "devDependencies": {
-        "@eslint/eslintrc": "^3.3.1",
-        "@types/node": "^22.0.0",
+        "@eslint/eslintrc": "3.3.1",
+        "@types/node": "22.13.17",
         "@types/react": "19.0.12",
         "@types/react-dom": "19.0.4",
-        "eslint": "^9.0.0",
+        "eslint": "9.23.0",
         "eslint-config-next": "15.2.4",
-        "typescript": "^5",
+        "typescript": "5.8.2",
       },
     },
   },
@@ -157,7 +157,7 @@
 
     "@types/json5": ["@types/json5@0.0.29", "", {}, "sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ=="],
 
-    "@types/node": ["@types/node@22.13.16", "", { "dependencies": { "undici-types": "~6.20.0" } }, "sha512-15tM+qA4Ypml/N7kyRdvfRjBQT2RL461uF1Bldn06K0Nzn1lY3nAPgHlsVrJxdZ9WhZiW0Fmc1lOYMtDsAuB3w=="],
+    "@types/node": ["@types/node@22.13.17", "", { "dependencies": { "undici-types": "~6.20.0" } }, "sha512-nAJuQXoyPj04uLgu+obZcSmsfOenUg6DxPKogeUy6yNCFwWaj5sBF8/G/pNo8EtBJjAfSVgfIlugR/BCOleO+g=="],
 
     "@types/prop-types": ["@types/prop-types@15.7.14", "", {}, "sha512-gNMvNH49DJ7OJYv+KAKn0Xp45p8PLl6zo2YnvDIbTd4J6MER2BmWN49TG7n9LvkyihINxeKW8+3bfS2yDC9dzQ=="],
 
@@ -773,7 +773,7 @@
 
     "typeface-titillium-web": ["typeface-titillium-web@1.1.13", "", {}, "sha512-R21mXf9hoqle+dgR7k6C6QUN2XElopQNsTDYI5DoU1buuYayVvzn2jd2ihKJTwM/hJsltLrlJUkyumc3FFgevA=="],
 
-    "typescript": ["typescript@5.7.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw=="],
+    "typescript": ["typescript@5.8.2", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ=="],
 
     "unbox-primitive": ["unbox-primitive@1.1.0", "", { "dependencies": { "call-bound": "^1.0.3", "has-bigints": "^1.0.2", "has-symbols": "^1.1.0", "which-boxed-primitive": "^1.1.1" } }, "sha512-nWJ91DjeOkej/TA8pXQ3myruKpKEYgqvpw9lz4OPHj/NWFNluYrjbz9j01CJ8yKQd2g4jFoOkINCTW2I5LEEyw=="],
 
