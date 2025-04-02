@@ -3,5 +3,8 @@
   "extends": [
     "config:best-practices",
     "config:js-app"
-  ]
+  ],
+  "lockFileMaintenance": {
+    "enabled": true
+  }
 }
