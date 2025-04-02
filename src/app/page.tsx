@@ -98,12 +98,14 @@ export default function Home() {
         <Container>
           <Row>
             <Col lg={{ size: 6, offset: 1, order: 2 }}>
-              <img
-                src="https://picsum.photos/800/600"
-                title="img title"
-                alt="imagealt"
-                className="img-fluid"
-              />
+              <picture>
+                <img
+                  src="https://picsum.photos/800/600"
+                  title="img title"
+                  alt="imagealt"
+                  className="img-fluid"
+                />
+              </picture>
             </Col>
             <Col lg={{ size: 5, order: 1 }}>
               <Card>
@@ -261,10 +263,12 @@ export default function Home() {
                         className="card-bg-primary no-after mt-0"
                       >
                         <div className="avatar size-lg me-3">
-                          <img
-                            src="https://picsum.photos/200/200"
-                            alt="Immagine"
-                          />
+                          <picture>
+                            <img
+                              src="https://picsum.photos/200/200"
+                              alt="Immagine"
+                            />
+                          </picture>
                         </div>
                         <CardBody>
                           <CardTitle tag="h5">Mobilità in Comune</CardTitle>
@@ -396,7 +400,9 @@ export default function Home() {
               <div className="card-wrapper card-teaser-wrapper card-teaser-wrapper-equal card-teaser-block-3">
                 <Card teaser noWrapper className="card-bg-primary rounded">
                   <div className="avatar size-lg me-3">
-                    <img src="https://picsum.photos/200/200" alt="Immagine" />
+                    <picture>
+                      <img src="https://picsum.photos/200/200" alt="Immagine" />
+                    </picture>
                   </div>
                   <CardBody>
                     <CardTitle tag="h5">Mobilità in Comune</CardTitle>
@@ -407,7 +413,9 @@ export default function Home() {
                 </Card>
                 <Card teaser noWrapper className="card-bg-warning rounded">
                   <div className="avatar size-lg me-3">
-                    <img src="https://picsum.photos/200/200" alt="Immagine" />
+                    <picture>
+                      <img src="https://picsum.photos/200/200" alt="Immagine" />
+                    </picture>
                   </div>
                   <CardBody>
                     <CardTitle tag="h5">Turismo</CardTitle>
@@ -419,7 +427,9 @@ export default function Home() {
                 </Card>
                 <Card teaser noWrapper className="card-bg-dark rounded">
                   <div className="avatar size-lg me-3">
-                    <img src="https://picsum.photos/200/200" alt="Immagine" />
+                    <picture>
+                      <img src="https://picsum.photos/200/200" alt="Immagine" />
+                    </picture>
                   </div>
                   <CardBody tag="h5">
                     <CardTitle>Musei Civici</CardTitle>

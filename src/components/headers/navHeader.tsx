@@ -88,11 +88,13 @@ export default function NavHeader({ theme }: { theme?: "dark" | "light" }) {
                   <MegamenuHighlightColumn description lg='4' xs='12'>
                     <div className='ratio ratio-21x9 lightgrey-bg-a1 mb-4 rounded'>
                       <figure className='figure'>
-                        <img
-                          alt='Segnaposto'
-                          className='figure-img img-fluid rounded'
-                          src='https://placehold.co/560x240/ebebeb/808080/?text=Immagine'
-                        />
+                        <picture>
+                          <img
+                            alt='Segnaposto'
+                            className='figure-img img-fluid rounded'
+                            src='https://placehold.co/560x240/ebebeb/808080/?text=Immagine'
+                            />
+                        </picture>
                       </figure>
                     </div>
                     <p>
