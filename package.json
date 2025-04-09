@@ -11,7 +11,7 @@
   "dependencies": {
     "bootstrap-italia": "2.14.0",
     "design-react-kit": "5.7.0",
-    "next": "15.2.5",
+    "next": "15.3.0",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "typeface-lora": "1.1.13",
@@ -24,7 +24,7 @@
     "@types/react": "19.1.0",
     "@types/react-dom": "19.1.2",
     "eslint": "9.24.0",
-    "eslint-config-next": "15.2.5",
+    "eslint-config-next": "15.3.0",
     "typescript": "5.8.3"
   }
 }
