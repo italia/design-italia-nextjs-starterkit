@@ -5,7 +5,7 @@
       "name": "next-starter-designkit",
       "dependencies": {
         "bootstrap-italia": "2.14.0",
-        "design-react-kit": "5.7.0",
+        "design-react-kit": "5.7.1",
         "next": "15.3.0",
         "react": "19.1.0",
         "react-dom": "19.1.0",
@@ -329,7 +329,7 @@
 
     "dequal": ["dequal@2.0.3", "", {}, "sha512-0je+qPKHEMohvfRTCEo3CrPG6cAzAYgmzKyxRiYSSDkS6eGJdyVJm7WaYA5ECaAD9wLB2T4EEeymA5aFVcYXCA=="],
 
-    "design-react-kit": ["design-react-kit@5.7.0", "", { "dependencies": { "@splidejs/react-splide": "^0.7.12", "accessible-autocomplete": "^3.0.1", "classnames": "^2.3.1", "is-number": "^7.0.0", "react-bootstrap": "^2.10.6", "react-stickup": "^1.12.1", "react-toastify": "^7.0.4", "react-transition-group": "^4.4.5", "reactstrap": "9.2.2", "webfontloader": "^1.6.28" }, "peerDependencies": { "bootstrap-italia": "^2.13.4", "react": ">=18.2.0" } }, "sha512-pcEVh9r6OBcQ/e2AXb7ZQr9sBuUqJKqthktPT+YlfkCOmruTd1eOiC8DaTXxOyG5s1GlnlueGp4JfQhtkK54+Q=="],
+    "design-react-kit": ["design-react-kit@5.7.1", "", { "dependencies": { "@splidejs/react-splide": "^0.7.12", "accessible-autocomplete": "^3.0.1", "classnames": "^2.3.1", "is-number": "^7.0.0", "react-bootstrap": "^2.10.6", "react-toastify": "^7.0.4", "react-transition-group": "^4.4.5", "reactstrap": "9.2.2", "webfontloader": "^1.6.28" }, "peerDependencies": { "bootstrap-italia": "^2.13.4", "react": ">=18.2.0" } }, "sha512-p+Yt9Zsd919AFvd+wKbNqc+SA741nJUMLtIJAf90QnmFgp/5bT9fmIeoJ+3ZdYD2okgeJFKnD0rTNVFSZcvTcA=="],
 
     "design-tokens-italia": ["design-tokens-italia@1.2.1", "", {}, "sha512-BYdW1aeDTlPiJQxLo8H+BphH9vkRYxStH3+UbQgwwLGbrDt3WaYqMLYq7xOBe33SLplIWMlfVx2YVnipD7yLCw=="],
 
@@ -565,8 +565,6 @@
 
     "math-intrinsics": ["math-intrinsics@1.1.0", "", {}, "sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g=="],
 
-    "memoize-one": ["memoize-one@5.2.1", "", {}, "sha512-zYiwtZUcYyXKo/np96AGZAckk+FWWsUdJ3cHGGmld7+AhvcWmQyGCYUh1hc4Q/pkOhb65dQR/pqCyK0cOaHz4Q=="],
-
     "merge2": ["merge2@1.4.1", "", {}, "sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg=="],
 
     "micromatch": ["micromatch@4.0.8", "", { "dependencies": { "braces": "^3.0.3", "picomatch": "^2.3.1" } }, "sha512-PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA=="],
@@ -661,13 +659,9 @@
 
     "react-popper": ["react-popper@2.3.0", "", { "dependencies": { "react-fast-compare": "^3.0.1", "warning": "^4.0.2" }, "peerDependencies": { "@popperjs/core": "^2.0.0", "react": "^16.8.0 || ^17 || ^18", "react-dom": "^16.8.0 || ^17 || ^18" } }, "sha512-e1hj8lL3uM+sgSR4Lxzn5h1GxBlpa4CQz0XLF8kx4MDrDRWY0Ena4c97PUeSX9i5W3UAfDP0z0FXCTQkoXUl3Q=="],
 
-    "react-stickup": ["react-stickup@1.12.1", "", { "dependencies": { "react-viewport-utils": "^1.12.1" }, "peerDependencies": { "react": ">=16.3.0 <18.0.0" } }, "sha512-YVLPzj/QlxuRLi4IMzCqU0OY9bol8TwPVCoXKpe4uQzOTazqa9s7TiELlBIjEUk+8sxc+cnZQd+7M09l8RrhHw=="],
-
     "react-toastify": ["react-toastify@7.0.4", "", { "dependencies": { "clsx": "^1.1.1" }, "peerDependencies": { "react": ">=16", "react-dom": ">=16" } }, "sha512-Rol7+Cn39hZp5hQ/k6CbMNE2CKYV9E5OQdC/hBLtIQU2xz7DdAm7xil4NITQTHR6zEbE5RVFbpgSwTD7xRGLeQ=="],
 
     "react-transition-group": ["react-transition-group@4.4.5", "", { "dependencies": { "@babel/runtime": "^7.5.5", "dom-helpers": "^5.0.1", "loose-envify": "^1.4.0", "prop-types": "^15.6.2" }, "peerDependencies": { "react": ">=16.6.0", "react-dom": ">=16.6.0" } }, "sha512-pZcd1MCJoiKiBR2NRxeCRg13uCXbydPnmB4EOeRrY7480qNWO8IIgQG6zlDkm6uRMsURXPuKq0GWtiM59a5Q6g=="],
-
-    "react-viewport-utils": ["react-viewport-utils@1.12.1", "", { "dependencies": { "memoize-one": "^5.1.1" }, "peerDependencies": { "react": "^16.3.0" } }, "sha512-sjj8rNIKSlzwhVf3mJJJl3Z+34ILFrMxCdP2jmzkAGtwXjdvKm2my9lZMV54oh837bUGx3k6XZlF/988Up3GZg=="],
 
     "reactstrap": ["reactstrap@9.2.2", "", { "dependencies": { "@babel/runtime": "^7.12.5", "@popperjs/core": "^2.6.0", "classnames": "^2.2.3", "prop-types": "^15.5.8", "react-popper": "^2.2.4", "react-transition-group": "^4.4.2" }, "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-4KroiGOdqZLAnMGzHjpErW3G7bLB+QbKzzMLIDXydPIV0y74lpdL7WtXHkLWAGInd97WCPNx4+R0NQDPyzIfhw=="],
 
