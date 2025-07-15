@@ -5,7 +5,7 @@
       "name": "next-starter-designkit",
       "dependencies": {
         "bootstrap-italia": "2.16.0",
-        "design-react-kit": "5.8.2",
+        "design-react-kit": "5.8.3",
         "next": "15.4.1",
         "react": "19.1.0",
         "react-dom": "19.1.0",
@@ -329,7 +329,7 @@
 
     "dequal": ["dequal@2.0.3", "", {}, "sha512-0je+qPKHEMohvfRTCEo3CrPG6cAzAYgmzKyxRiYSSDkS6eGJdyVJm7WaYA5ECaAD9wLB2T4EEeymA5aFVcYXCA=="],
 
-    "design-react-kit": ["design-react-kit@5.8.2", "", { "dependencies": { "@splidejs/react-splide": "^0.7.12", "accessible-autocomplete": "^3.0.1", "classnames": "^2.3.1", "is-number": "^7.0.0", "react-bootstrap": "^2.10.6", "react-toastify": "^7.0.4", "react-transition-group": "^4.4.5", "reactstrap": "9.2.2", "webfontloader": "^1.6.28" }, "peerDependencies": { "bootstrap-italia": "^2.15.1", "react": ">=18.2.0" } }, "sha512-/fswj71x84TONo8uZMc0Il24OlZHWilJQvtyGPRfcXRuXVXhaHw9owGyuftCIyLTWrHgU195TDls6VuMaVKPdA=="],
+    "design-react-kit": ["design-react-kit@5.8.3", "", { "dependencies": { "@splidejs/react-splide": "^0.7.12", "accessible-autocomplete": "^3.0.1", "classnames": "^2.3.1", "is-number": "^7.0.0", "react-bootstrap": "^2.10.6", "react-toastify": "^7.0.4", "react-transition-group": "^4.4.5", "reactstrap": "9.2.2", "webfontloader": "^1.6.28" }, "peerDependencies": { "bootstrap-italia": "^2.15.1", "react": ">=18.2.0" } }, "sha512-IQDHKzl2TIion4pf+JPHJ4++Cd4IZ9jh6n3AEbF1SCc/2wg7BdkrVp0UsI5kopTaUjU1B3zMKCC1582na66IzQ=="],
 
     "design-tokens-italia": ["design-tokens-italia@1.2.1", "", {}, "sha512-BYdW1aeDTlPiJQxLo8H+BphH9vkRYxStH3+UbQgwwLGbrDt3WaYqMLYq7xOBe33SLplIWMlfVx2YVnipD7yLCw=="],
 
