@@ -12,8 +12,8 @@
     "bootstrap-italia": "2.16.0",
     "design-react-kit": "5.8.3",
     "next": "15.4.4",
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
     "typeface-lora": "1.1.13",
     "typeface-roboto-mono": "1.1.13",
     "typeface-titillium-web": "1.1.13"
