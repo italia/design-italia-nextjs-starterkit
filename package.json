@@ -11,7 +11,7 @@
   "dependencies": {
     "bootstrap-italia": "2.17.0",
     "design-react-kit": "5.8.3",
-    "next": "15.5.7",
+    "next": "15.5.8",
     "react": "19.2.1",
     "react-dom": "19.2.1",
     "typeface-lora": "1.1.13",
