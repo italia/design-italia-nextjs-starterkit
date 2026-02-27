@@ -19,7 +19,7 @@
     "typeface-titillium-web": "1.1.13"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "3.3.3",
+    "@eslint/eslintrc": "3.3.4",
     "@types/node": "22.19.11",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
