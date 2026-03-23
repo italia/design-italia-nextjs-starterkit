@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "bootstrap-italia": "2.18.0",
-    "design-react-kit": "5.8.3",
+    "design-react-kit": "5.10.0",
     "next": "15.5.14",
     "react": "19.2.4",
     "react-dom": "19.2.4",
