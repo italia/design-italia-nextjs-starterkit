@@ -5,7 +5,7 @@
     "": {
       "name": "next-starter-designkit",
       "dependencies": {
-        "bootstrap-italia": "2.18.1",
+        "bootstrap-italia": "2.18.2",
         "design-react-kit": "5.8.3",
         "next": "15.5.20",
         "react": "19.2.7",
@@ -310,7 +310,7 @@
 
     "balanced-match": ["balanced-match@1.0.2", "", {}, "sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw=="],
 
-    "bootstrap-italia": ["bootstrap-italia@2.18.1", "", { "dependencies": { "@popperjs/core": "^2.11.6", "@splidejs/splide": "^4.1.4", "@types/bootstrap": "^5.2.6", "animejs": "^3.2.1", "design-tokens-italia": "^1.3.3", "just-validate": "^4.3.0", "minimasonry": "^1.3.2", "progressbar.js": "^1.1.0", "uuid": "^14.0.0", "video.js": "^8.21.0" } }, "sha512-pcvB8gH+VrNigwnfsEDkmcASKz6edwPfiwIJE1Q9W02bvS7UJwYK/FgAKJZZYG2UJn11a2wTOgzR7rPW0DmP/Q=="],
+    "bootstrap-italia": ["bootstrap-italia@2.18.2", "", { "dependencies": { "@popperjs/core": "^2.11.6", "@splidejs/splide": "^4.1.4", "@types/bootstrap": "^5.2.6", "animejs": "^3.2.1", "design-tokens-italia": "^1.3.3", "just-validate": "^4.3.0", "minimasonry": "^1.3.2", "progressbar.js": "^1.1.0", "uuid": "^14.0.0", "video.js": "^8.23.7" } }, "sha512-qoOrq8lDfmELVS46PJekZVacWCkVqG+PF4g41QBevbIWgw2LII6mESrE+ntADMrEKhDAVYPHt0Z9viHhabzXFw=="],
 
     "brace-expansion": ["brace-expansion@1.1.15", "", { "dependencies": { "balanced-match": "^1.0.0", "concat-map": "0.0.1" } }, "sha512-EwOCDEex4quD37XhqM3omwtMoJjr//isUZz1JopUNWms+4Z2ViyM/k1YIRePpoVNnQhENnxtFjLaxNHrT7xIUg=="],
 
